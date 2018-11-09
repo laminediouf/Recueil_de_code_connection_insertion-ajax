@@ -1,0 +1,87 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.div_form {
+  width: 50%;
+  margin: 50px auto;
+  padding: 50px;
+  background: #D7FBFF;
+}
+form {
+  margin: 30px auto;
+}
+.lab {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.form_error {
+  border: #ff0000;
+}
+
+
+.textInput {
+  border: none;
+  height: 40px;
+  margin: 2px;
+  border: 1px solid #6B7363;
+  border-radius: 50px;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 95%;
+}
+.textInput:focus {
+  outline: none;
+}
+select {
+  border-radius: 50px;
+  height: 40px;
+}
+.btn {
+  width: 98.6%;
+  border: none;
+  margin-top: 35px;
+  color: white;
+  background-color: #3b5998;
+  border-radius: 50px;
+  padding: 12px;
+}
+
+.btn:hover {
+  background-color: #4e6fb6;
+}
+      
+footer {
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .socials_links ul li {
+  display: inline;
+  color: #ffffff;
+}
+
+footer .socials_links ul li a i {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
+}
+
+footer .socials_links ul li a:hover {
+  text-decoration: none;
+}
+
+footer .socials_links ul li a i:hover {
+  color: #0878b9;
+}
+
+
+
+/* div#autocomplete_div {
+  position: absolute; right: 282px; top: 60px;
+} */
